@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5500/aboutme/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+</head>
+<body>
+<h1>About Me</h1>
+<img src="./aboutmepage_files/img_6139.small.jpg" alt="me in granada">
+<p>My name is Rebekah but I usually go by Bekah or Bek. I am studying computer science and hoping 
+</p><p></p>to study in the computer science in animation and games program at BYU later down the road. 
+<p></p>I love art and I love technology so I'm super excited.<p></p>
+<h1>-</h1>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<p></p>I enjoy sports, my favorite is volleyball. I also like to read and make art.<p></p>
+<p>My favorite author is Nancy Werlin. I like to teach myself new things. I am</p>
+<p>currently trying to teach myself how to juggle. Also I'm from Oklahoma.</p>
+<h1>-</h1>
+
+    <p>I am super excited to learn more about web design. I eventually want to learn how</p>
+    <p>to do digital animation so I think having a good foundation of basic web design will be good.</p>
+<!-- Code inject--></body></html>
